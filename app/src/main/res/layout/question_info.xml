@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/TextView.Nickname"
+        android:id="@+id/question1" />
+
+    <LinearLayout
+        android:layout_below="@+id/question1"
+        android:id="@+id/interestsPrimary"
+        style="@style/LinearLayout.Interests"
+        android:gravity="center">
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/happy"
+           android:padding="20dp"
+           android:scaleType="centerInside"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sad"
+            android:padding="20dp"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
